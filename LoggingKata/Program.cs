@@ -77,6 +77,7 @@ namespace LoggingKata
                         tacoBell1 = locA;
                         tacoBell2 = locB;
                         distance = newDistance;
+                        logger.LogInfo($"Longer distance stored {newDistance}");
                     }
                 }
 
